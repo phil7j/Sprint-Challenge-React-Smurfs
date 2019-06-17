@@ -1,3 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand|Permanent+Marker&display=swap');
+
 .App {
   text-align: center;
+
+}
+
+nav {
+  display: flex;
+  max-width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Permanent Marker', cursive;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+}
+
+nav div.nav-links {
+  /* flex-grow: 2; */
+  margin-left: 50px;
+}
+ nav a h1 {
+  transition: color 400ms ease;
+ }
+
+ nav a h1:hover {
+   color: black;
+ }
+
+nav div.nav-links a {
+  margin-left: 35px;
+  font-size: 1.2rem;
+  color: white;
+  transition: color 400ms ease;
+}
+nav div.nav-links a:hover {
+  color: black;
+}
+
+
+/* Home Page */
+
+
+div.home {
+  font-family: 'Patrick Hand', cursive;
+  margin-top: 100px;
+}
+
+div.home img {
+  width: 20%;
+}
+
+div.home p {
+  font-size: 1.5rem;
+  margin-top: 75px;
+  color: white;
+  font-weight: 700;
+}
+
+div.home button {
+  font-family: 'Patrick Hand', cursive;
+  border: 1px solid white;
+  border-radius: 35px;
+  margin: 10px;
+  background: rgba(84, 121, 201, 0.507);
+  padding: 15px 20px;
+  outline: none;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: white;
+  transition: color 400ms ease, background 400ms ease, border-radius 400ms ease;
+  cursor: pointer;
+}
+
+div.home button:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+
+}
+
+
+/*  Village Page */
+
+div.smurfs{
+  font-family: 'Patrick Hand', cursive;
+  margin-top: 80px;
+}
+
+div.smurfs h1 {
+  font-size: 3rem;
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+}
+
+div.smurfs ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div.smurf {
+  margin: 25px;
+  border: 3px solid rgb(255, 255, 255);
+  padding: 40px;
+  border-radius: 100%;
+  background-color: rgb(70, 198, 236);
+  color: white;
+  font-size: 1.2rem;
+  transition: border-color 400ms ease;
+  cursor: pointer;
+}
+
+div.smurf:hover {
+  /* color: black; */
+  border-color: black;
+}
+
+
+/*  Add Smurf Page */
+
+div.smurf-form {
+  margin-top: 80px;
+}
+
+div.smurf-form h1 {
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+  font-size: 3rem;
+}
+
+div.smurf-form form {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+}
+
+div.smurf-form input {
+  margin: 5px;
+  padding: 13px;
+  background: rgba(255, 255, 255, 0.123);
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 2rem;
+}
+
+div.smurf-form button {
+  font-family: 'Patrick Hand', cursive;
+  border: 1px solid white;
+  border-radius: 25px;
+  margin: 10px;
+  background: rgba(84, 121, 201, 0.507);
+  padding: 15px 20px;
+  outline: none;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: white;
+  transition: color 400ms ease, background 400ms ease, border-radius 400ms ease;
+  cursor: pointer;
+
+}
+
+div.smurf-form button:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+
 }
